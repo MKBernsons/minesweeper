@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.counter {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.tile {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  padding: 0;
+  vertical-align: middle;
+  border: 0;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  background-color: #83b74e;
+}
+.tile :hover {
+  background-color: #102322;
+}
+
+.cleared {
+  background-color: #d7e9c5;
+}
+
+.exploded {
+  background-color: #ff5630;
+}
+
+.number {
+  color: #0a57d3;
+  background-color: #d7e9c5;
+}
+
+.flag {
+  background-color: #c5003e;
+}
+
+.grid {
+  margin-top: 40px;
+}
