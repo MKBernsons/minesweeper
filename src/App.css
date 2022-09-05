@@ -54,25 +54,24 @@
   margin-right: 1px;
   background-color: #83b74e;
 }
-.tile :hover {
-  background-color: #102322;
-}
 
 .cleared {
-  background-color: #d7e9c5;
-}
-
-.exploded {
-  background-color: #ff5630;
-}
-
-.number {
-  color: #0a57d3;
-  background-color: #d7e9c5;
+  background-color: #c8f39e;
 }
 
 .flag {
-  background-color: #c5003e;
+  background-color: #00c5c5;
+  color: #1eff00;
+}
+
+.exploded {
+  background-color: #ff3425;
+  color: #282c34;
+}
+
+.number {
+  color: #ff4800;
+  background-color: #c8f39e;
 }
 
 .grid {
